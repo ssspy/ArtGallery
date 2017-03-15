@@ -1,6 +1,6 @@
 .gradle
 /build/
-/node_modules/
+/src/main/resources/static/node_modules
 package.json
 
 ### STS ###
@@ -17,3 +17,4 @@ package.json
 *.iml
 *.ipr
 *.class
+
