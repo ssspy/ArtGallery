@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Art-gallery</title>
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="../static/css/main.css">
 </head>
@@ -44,16 +45,17 @@
             <div class="search-and-reg_buttons">
                 <div class="search">
                     <input class="home-search" type="search" placeholder="Search...">
+                    <input type="button" class="search-button fa fa-search" aria-hidden="true">
                 </div>
                 <ul class="reg-buttons">
                     <li>
-                        <a href="#">
-                            Sing Up
+                        <a class="red-but sign-up" href="#">
+                            Sign up
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            Login
+                        <a class="red-but" href="#">
+                            Sign in
                         </a>
                     </li>
                 </ul>
@@ -65,35 +67,30 @@
     <section class="home">
         <div class="wrapper">
             <div class="home-block">
-                <div class="slider">
-                    <div class="parent">
-                        <div class="slider">
-                            <ul class="slider-ul">
-                                <li class="slider-ul-li" data-slider="1"></li>
-                                <li class="slider-ul-li" data-slider="2"></li>
-                                <li class="slider-ul-li" data-slider="3"></li>
-                                <li class="slider-ul-li" data-slider="4"></li>
-                                <li class="slider-ul-li" data-slider="5"></li>
-                                <li class="slider-ul-li" data-slider="6"></li>
-                            </ul>
-                            <ol class="slider-ol">
-                                <li class="slider-ol-li slider-active" data-slider="1"><i class="fa fa-circle-thin"></i></li>
-                                <li class="slider-ol-li" data-slider="2"><i class="fa fa-circle-thin"></i></li>
-                                <li class="slider-ol-li" data-slider="3"><i class="fa fa-circle-thin"></i></li>
-                                <li class="slider-ol-li" data-slider="4"><i class="fa fa-circle-thin"></i></li>
-                                <li class="slider-ol-li" data-slider="5"><i class="fa fa-circle-thin"></i></li>
-                                <li class="slider-ol-li" data-slider="6"></li>
-                            </ol>
-                            <i class="fa fa-chevron-right fa-5x"></i>
-                            <i class="fa fa-chevron-left fa-5x"></i>
+                <div class="form_container">
+                    <div class="slideContainer">
+                        <div class="slide" data-background="../static/img/slider/van-gogh_night.jpg">
+                        </div>
+                        <div class="slide" data-background="../static/img/slider/klimnt_kiss.jpg">
+                        </div>
+                        <div class="slide" data-background="../static/img/slider/jeff_depner.jpg">
+                        </div>
+                        <div class="slide" data-background="../static/img/slider/dali_moma.jpg">
+                        </div>
+                        <div class="slide" data-background="../static/img/slider/monroe-andy-warhol.jpg">
+                        </div>
+                        <div class="slide" data-background="../static/img/slider/serov_girl-with-pineapple.jpg">
                         </div>
                     </div>
+                    <div class="left"></div>
+                    <div class="right"></div>
                 </div>
+
                 <div class="quote">
                     <h1>
                         The art of communication is the language of leadership!
                     </h1>
-                    <a href="gallery_styles.html" class="visit-gallery">
+                    <a href="gallery_styles.html" class="red-but visit-gallery">
                         Visit gallery
                     </a>
                 </div>
@@ -103,49 +100,68 @@
     <section class="news">
         <div class="wrapper">
             <div class="news-block">
+                <h2>
+                    NEWS
+                </h2>
                 <ul class="news-list">
                     <li>
-                        <img src="" alt="photo-new" class="photo-new">
+                        <img src="../static/img/news/news1.png" alt="photo-news1" class="photo-news">
                         <h3 class="title-new">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Winner of the January Anniversary Painting Competition Announced
                         </h3>
                         <p class="info-new">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores,
-                            autem commodi deserunt eveniet facere fugiat in ipsum iure maiores nemo.
+                            To celebrate 50 years of Leisure Painter and ten years of PaintersOnline, we
+                            are offering members the chance to win £50 of art materials vouchers from Great
+                            Art every month.  Every four weeks we are inviting you to submit your...
                         </p>
+                        <span class="date">
+                            March, 29, 2017
+                        </span>
                     </li>
                     <li>
-                        <img src="" alt="photo-new" class="photo-new">
+                        <img src="../static/img/news/news2.png" alt="photo-news2" class="photo-news">
                         <h3 class="title-new">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Degas To Picasso - Creating Modernism in France
                         </h3>
                         <p class="info-new">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores,
-                            autem commodi deserunt eveniet facere fugiat in ipsum iure maiores nemo.
+                            The Ashmolean’s spring exhibition tells one of the most compelling stories in
+                            the history of art – the rise of Modernism. From the early nineteenth century
+                            to the middle of the twentieth, this story was played out in France...
                         </p>
+                        <span class="date">
+                            November, 2, 2016
+                        </span>
                     </li>
                     <li>
-                        <img src="" alt="photo-new" class="photo-new">
+                        <img src="../static/img/news/news3.png" alt="photo-news3" class="photo-news">
                         <h3 class="title-new">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Jackson’s Open seasson Painting Prize 2017 many people
                         </h3>
                         <p class="info-new">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores,
-                            autem commodi deserunt eveniet facere fugiat in ipsum iure maiores nemo.
+                            The Jackson’s Open Painting Prize exists to recognise and appreciate original,
+                            2-dimensional fine art works in any painting or drawing media. Photographs,
+                            computer generated or manipulated artwork...
                         </p>
+                        <span class="date">
+                            March, 29, 2017
+                        </span>
                     </li>
                     <li>
-                        <img src="" alt="photo-new" class="photo-new">
+                        <img src="../static/img/news/news4.png" alt="photo-news4" class="photo-news">
                         <h3 class="title-new">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Royal Society of British Artists Annual Exhibition 2017
                         </h3>
                         <p class="info-new">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores,
-                            autem commodi deserunt eveniet facere fugiat in ipsum iure maiores nemo.
+                            "Founded in 1823, the RBA has been at the vanguard of promoting a truly
+                            eclectic mixture of art. However, unadulterated artistic talent has always
+                            been the Society’s philosophy and while fashions come and go...
                         </p>
+                        <span class="date">
+                            November, 2, 2016
+                        </span>
                     </li>
                 </ul>
-                <a href="news.html" class="lern-more">
+                <a href="news.html" class="red-but lern-more">
                     Learn more
                 </a>
             </div>
@@ -157,7 +173,7 @@
     <ul class="footer-container">
         <li class="logo">
             <a href="index.html">
-                <img src="" alt="art-gallery-logo">
+                <img src="../static/img/logo2.png" alt="art-gallery-logo">
             </a>
         </li>
         <li class="nav-2">
@@ -185,9 +201,25 @@
             </ul>
         </li>
         <li class="social-icons">
-            <a class="fa fa-instagram" href="#"></a>
-            <a class="fa fa-facebook" href="#"></a>
-            <a class="fa fa-vkontakte" href="#"></a>
+            <a href="#">
+                <span class="fa fa-instagram" aria-hidden="true"></span>
+            </a>
+            <a class="vk" href="#">
+                <span class="fa fa-vk" aria-hidden="true"></span>
+            </a>
+            <a href="#">
+                <span class="fa fa-twitter" aria-hidden="true"></span>
+            </a>
+            <a href="#">
+                <span class="fa fa-facebook" aria-hidden="true"></span>
+            </a>
+        </li>
+        <li class="subscribe">
+            <h3>
+                Subscribes to news
+            </h3>
+            <input class="email" type="email" placeholder="Email">
+            <input class="sub-button" type="button" value="Subscribe">
         </li>
     </ul>
 </div>
@@ -196,5 +228,8 @@
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
+<script src="../static/source-js/main.js">
+
+</script>
 </body>
 </html>
