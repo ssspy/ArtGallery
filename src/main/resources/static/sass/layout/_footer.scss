@@ -6,11 +6,26 @@ footer {
     justify-content: space-between;
     list-style: none;
     padding-left: 0;
-    a {
-        span.fa {
-            padding: 11px;
-            font-size: 22px;
-            font-weight: 600;
+    .social-icons {
+        width: 200px;
+        a {
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            color: azure;
+            border: 1px solid #337ab7;
+            border-radius: 30px;
+            span.fa {
+                width: 40px;
+                height: 40px;
+                padding: 11px;
+                font-size: 22px;
+                font-weight: 600;
+                display: block;
+                padding-top: 0;
+                padding-bottom: 0;
+
+            }
         }
     }
 }
