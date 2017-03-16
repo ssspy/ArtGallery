@@ -1,8 +1,10 @@
-.wrapper {
-
+header {
+    background-color: #E1E3E4;
+    overflow: hidden;
 }
 .logo-and-nav {
     margin-top: 10px;
+    margin-bottom: 10px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -22,9 +24,15 @@
                 display: inline-block;
                 margin-top: 12px;
                 a {
+                    color: rgba(180, 34, 81, 0.96);
                     font-size: 35px;
                     text-decoration: none;
-                    padding-right: 45px;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    text-shadow: 1px 1px 1px grey;
+                }
+                a:hover {
+                    text-shadow: 2px 2px 2px grey;
                 }
             }
         }
@@ -39,11 +47,12 @@
                 border: 1px solid #337ab7;;
                 border-radius: 3px 0 0 3px;
                 height: 30px;
-                width: 249px;
+                width: 250px;
                 float: left;
                 border-right: none;
             }
             .search-button {
+
                 float: left;
                 display: block;
                 width: 35px;
@@ -52,7 +61,7 @@
                 border-left: none;
                 border-radius: 0 3px 3px 0;
                 margin-left: -3px;
-                background: url("../../static/img/search-icon.png") no-repeat center;
+                background: url("../../static/img/search-icon.png") no-repeat center left 6px;
             }
         }
         .reg-buttons {
@@ -62,10 +71,12 @@
                 display: inline-block;
                 font-size: 13px;
                 a {
-                    padding: 5px 49px;
+                    padding: 5px 48px;
                     display: block;
-                    border: 1px solid;
                     border-radius: 3px;
+                }
+                .sign-up {
+                    margin-right: 2px;
                 }
             }
         }

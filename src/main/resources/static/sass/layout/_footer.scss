@@ -1,31 +1,81 @@
 footer {
+    overflow: hidden;
     padding-top: 25px;
+    background: #30374e;
+    a, span, h3 {
+        color: #D8D8D8;
+    }
 }
 .footer-container {
     display: flex;
     justify-content: space-between;
     list-style: none;
     padding-left: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    .footer-menu {
+        list-style: none;
+        text-align: left;
+        padding-left: 0;
+        a {
+            font-size: 20px;
+            text-decoration: none;
+        }
+        a:hover, a:focus {
+            color: white;
+        }
+    }
     .social-icons {
         width: 200px;
         a {
-            width: 40px;
-            height: 40px;
             display: inline-block;
-            color: azure;
-            border: 1px solid #337ab7;
-            border-radius: 30px;
+            text-decoration: none;
             span.fa {
-                width: 40px;
-                height: 40px;
-                padding: 11px;
+                border: 1px solid #D8D8D8;
+                border-radius: 30px;
+                width: 45px;
+                height: 45px;
+                padding: 11px 12px;
                 font-size: 22px;
                 font-weight: 600;
                 display: block;
-                padding-top: 0;
-                padding-bottom: 0;
-
+                text-align: center;
             }
+            span:hover {
+                color: white;
+                border-color: white ;
+            }
+        }
+        span.fa.fa-vk {
+            padding: 11px 10px;
+        }
+    }
+    .subscribe {
+        overflow: hidden;
+        h3 {
+            text-align: left;
+            margin-top: 0;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .email {
+            padding-left: 10px;
+            border: 1px solid #337ab7;
+            border-radius: 3px 0 0 3px;
+            height: 30px;
+            width: 246px;
+            float: left;
+            border-right: none;
+        }
+        .sub-button {
+            float: left;
+            display: block;
+            width: 77px;
+            height: 30px;
+            border: 1px solid #337ab7;
+            border-left: none;
+            border-radius: 0 3px 3px 0;
+            margin-left: -3px;
         }
     }
 }

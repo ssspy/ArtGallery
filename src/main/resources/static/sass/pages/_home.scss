@@ -71,7 +71,6 @@ body{margin: 0; padding: 0; -webkit-box-sizing: border-box;}
             padding: 15px 60px;
             display: block;
             width: 250px;
-            border: 1px solid #337ab7;
             border-radius: 3px;
             text-decoration: none;
         }
@@ -142,7 +141,17 @@ h2 {
     margin-top: 30px;
     padding: 15px 60px;
     width: 250px;
-    border: 1px solid #337ab7;
     border-radius: 3px;
     text-decoration: none;
+}
+.red-but {
+    background-color: #cd2559;
+    color: white;
+    text-decoration: none;
+}
+.red-but:hover {
+    background-color: rgba(180, 34, 81, 0.96);
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5)
 }
