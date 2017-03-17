@@ -66,13 +66,45 @@
             }
 
         }
-        .lern-more {
-            font-size: 25px;
-            margin-top: 30px;
-            padding: 15px 60px;
-            width: 250px;
-            border-radius: 3px;
+        /** Pagination **/
+        .pagination{
+            /* margin-bottom: 10px; */
+            margin:0 auto;
+            width: 100%;
+            ul{
+                padding-left: 0;
+                margin: 0 auto;
+                width: 60%;
+                li{
+                    list-style: none;
+                    display: inline;
+                }
+            }
+        }
+        .pagination a{
             text-decoration: none;
+        }
+        .pagination a:hover {
+            background-color: rgba(180, 34, 81, 0.96);
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 0 8px rgba(0,0,0,0.5)
+        }
+        .pagination ul li a, .pagination ul li span{
+            padding: 13px 17px;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            margin: 3px 2px;
+            border-radius: 3px;
+            background-color: #cd2559;
+        }
+
+        .pagination ul li.current span{
+            background-color: rgba(180, 34, 81, 0.96);
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 0 8px rgba(0,0,0,0.5)
         }
     }
 }
