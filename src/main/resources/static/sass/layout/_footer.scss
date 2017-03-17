@@ -47,7 +47,7 @@ footer {
             }
         }
         span.fa.fa-vk {
-            padding: 11px 10px;
+            padding: 11px 0;
         }
     }
     .subscribe {
@@ -60,22 +60,29 @@ footer {
         }
         .email {
             padding-left: 10px;
-            border: 1px solid #337ab7;
+            border: none;
             border-radius: 3px 0 0 3px;
-            height: 30px;
+            height: 35px;
             width: 246px;
             float: left;
             border-right: none;
+            outline: none;
         }
         .sub-button {
+            background-color: #cd2559;
+            color: white;
             float: left;
             display: block;
             width: 77px;
-            height: 30px;
-            border: 1px solid #337ab7;
+            height: 35px;
+            border: none;
             border-left: none;
             border-radius: 0 3px 3px 0;
             margin-left: -3px;
+            outline: none;
+        }
+        .sub-button:hover {
+            background-color: rgba(180, 34, 81, 0.96);
         }
     }
 }

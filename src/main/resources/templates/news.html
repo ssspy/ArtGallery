@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>News</title>
+    <title>Art-gallery</title>
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="../static/css/main.css">
 </head>
@@ -13,7 +14,7 @@
             <div class="logo">
                 <h1>
                     <a href="#">
-                        <img src="" alt="art-gallery-logo">
+                        <img src="../static/img/logo.png" alt="art-gallery-logo">
                     </a>
                 </h1>
             </div>
@@ -44,16 +45,17 @@
             <div class="search-and-reg_buttons">
                 <div class="search">
                     <input class="home-search" type="search" placeholder="Search...">
+                    <input type="button" class="search-button fa fa-search" aria-hidden="true">
                 </div>
                 <ul class="reg-buttons">
                     <li>
-                        <a href="#">
-                            Sing Up
+                        <a class="red-but sign-up" href="#">
+                            Sign up
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            Login
+                        <a class="red-but" href="#">
+                            Sign in
                         </a>
                     </li>
                 </ul>
@@ -62,49 +64,214 @@
     </div>
 </header>
 <main>
-
+    <section class="page-news">
+        <div class="wrapper">
+            <div class="news-block">
+                <h2>
+                    NEWS
+                </h2>
+                <ul class="news-list">
+                    <li>
+                        <a href="news-single.html">
+                            <img src="../static/img/news/news1.png" alt="photo-news1" class="photo-news">
+                            <h3 class="title-new">
+                                Winner of the January Anniversary Painting Competition Announced
+                            </h3>
+                            <p class="info-new">
+                                To celebrate 50 years of Leisure Painter and ten years of PaintersOnline, we
+                                are offering members the chance to win £50 of art materials vouchers from Great
+                                Art every month.  Every four weeks we are inviting you to submit your...
+                            </p>
+                            <span class="date">
+                            March, 29, 2017
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news-single.html">
+                            <img src="../static/img/news/news2.png" alt="photo-news2" class="photo-news">
+                            <h3 class="title-new">
+                                Degas To Picasso - Creating Modernism in France
+                            </h3>
+                            <p class="info-new">
+                                The Ashmolean’s spring exhibition tells one of the most compelling stories in
+                                the history of art – the rise of Modernism. From the early nineteenth century
+                                to the middle of the twentieth, this story was played out in France...
+                            </p>
+                            <span class="date">
+                            November, 2, 2016
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news-single.html">
+                            <img src="../static/img/news/news3.png" alt="photo-news3" class="photo-news">
+                            <h3 class="title-new">
+                                Jackson’s Open seasson Painting Prize 2017 many people
+                            </h3>
+                            <p class="info-new">
+                                The Jackson’s Open Painting Prize exists to recognise and appreciate original,
+                                2-dimensional fine art works in any painting or drawing media. Photographs,
+                                computer generated or manipulated artwork...
+                            </p>
+                            <span class="date">
+                            March, 29, 2017
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news-single.html">
+                            <img src="../static/img/news/news4.png" alt="photo-news4" class="photo-news">
+                            <h3 class="title-new">
+                                Royal Society of British Artists Annual Exhibition 2017
+                            </h3>
+                            <p class="info-new">
+                                "Founded in 1823, the RBA has been at the vanguard of promoting a truly
+                                eclectic mixture of art. However, unadulterated artistic talent has always
+                                been the Society’s philosophy and while fashions come and go...
+                            </p>
+                            <span class="date">
+                            November, 2, 2016
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news-single.html">
+                            <img src="../static/img/news/news5.png" alt="photo-news5" class="photo-news">
+                            <h3 class="title-new">
+                                Major Vanessa Bell Exhibition at Dulwich Picture Gallery in 2017
+                            </h3>
+                            <p class="info-new">
+                                Dulwich picture Gallery has announced the first major monographic exhibition
+                                of the work of Vanessa Bell, opening 8 February 2017. Widely acclaimed as a
+                                central figure of the Bloomsbury Group, Bell also stands on her own as a pivotal...
+                            </p>
+                            <span class="date">
+                            Aprill, 11, 2016
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news-single.html">
+                            <img src="../static/img/news/news6.png" alt="photo-news6" class="photo-news">
+                            <h3 class="title-new">
+                                V&A to publish Hitler's 'degenerate art' list online
+                            </h3>
+                            <p class="info-new">
+                                The V&A is to publish the complete list of Hitler’s confiscated ‘degenerate art’
+                                online for the first time. ‘Entartete Kunst’ (degenerate art), which comprised
+                                mainly of modern art, was confiscated by the Nazi regime from public institutions in
+                                Germany during 1937 and 1938...
+                            </p>
+                            <span class="date">
+                            August, 23, 2015
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news-single.html">
+                            <img src="../static/img/news/news7.png" alt="photo-news7" class="photo-news">
+                            <h3 class="title-new">
+                                How Sherlock-style forensics allowed astrophysicists to date this Monet masterpiece
+                            </h3>
+                            <p class="info-new">
+                                In the finale of the first series of Sherlock, the high-functioning-
+                                sociopath-cum-detective is being forced to decipher a series of puzzles
+                                in exchange for the lives of four hostages. Given just ten seconds to
+                                prove why a painting...
+                            </p>
+                            <span class="date">
+                            March, 3, 2015
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news-single.html">
+                            <img src="../static/img/news/news8.png" alt="photo-news8" class="photo-news">
+                            <h3 class="title-new">
+                                Paul Nash painted in the trenches – and I did the same in Afghanistan
+                            </h3>
+                            <p class="info-new">
+                                A new Paul Nash show is now open at London’s Tate Britain. It is appropriate
+                                timing in this period of First World War memorialising – Nash is one of the
+                                UK’s best-known modern artists, an illustrator who turned to oils to produce
+                                some of...
+                            </p>
+                            <span class="date">
+                            November, 30, 2014
+                        </span>
+                        </a>
+                    </li>
+                </ul>
+                <a href="news.html" class="red-but lern-more">
+                    Learn more
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 <footer>
-    <ul class="footer-container">
-        <li class="logo">
-            <a href="index.html">
-                <img src="" alt="art-gallery-logo">
-            </a>
-        </li>
-        <li class="nav-2">
-            <ul class="footer-menu">
-                <li>
-                    <a href="index.html">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="gallery_styles.html">
-                        Gallery
-                    </a>
-                </li>
-                <li>
-                    <a href="painters.html">
-                        Painters
-                    </a>
-                </li>
-                <li>
-                    <a href="news.html">
-                        News
-                    </a>
-                </li>
-            </ul>
-        </li>
-        <li class="social-icons">
-            <a class="fa fa-instagram" href="#"></a>
-            <a class="fa fa-facebook" href="#"></a>
-            <a class="fa fa-vkontakte" href="#"></a>
-        </li>
-    </ul>
+    <div class="wrapper">
+        <ul class="footer-container">
+            <li class="logo">
+                <a href="index.html">
+                    <img src="../static/img/logo2.png" alt="art-gallery-logo">
+                </a>
+            </li>
+            <li class="nav-2">
+                <ul class="footer-menu">
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="gallery_styles.html">
+                            Gallery
+                        </a>
+                    </li>
+                    <li>
+                        <a href="painters.html">
+                            Painters
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news.html">
+                            News
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="social-icons">
+                <a href="#">
+                    <span class="fa fa-instagram" aria-hidden="true"></span>
+                </a>
+                <a class="vk" href="#">
+                    <span class="fa fa-vk" aria-hidden="true"></span>
+                </a>
+                <a href="#">
+                    <span class="fa fa-twitter" aria-hidden="true"></span>
+                </a>
+                <a href="#">
+                    <span class="fa fa-facebook" aria-hidden="true"></span>
+                </a>
+            </li>
+            <li class="subscribe">
+                <h3>
+                    Subscribe to news
+                </h3>
+                <input class="email" type="email" placeholder="Email">
+                <input class="sub-button" type="button" value="Subscribe">
+            </li>
+        </ul>
+    </div>
 </footer>
 <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
+<script src="../static/source-js/main.js">
+
+</script>
 </body>
 </html>

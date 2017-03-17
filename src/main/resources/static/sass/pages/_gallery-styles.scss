@@ -1,0 +1,75 @@
+.styles-block {
+    h2 {
+        margin-top: 35px;
+    }
+    .styles {
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        li {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 70px;
+            .styless {
+                text-decoration: none;
+                display: block;
+                width: 300px;
+                height: 300px;
+                .name-style {
+                    display: block;
+                    width: 300px;
+                    height: 300px;
+                    padding: 45% 0;
+                    font-size: 30px;
+                    background: rgba(22,23,41,0.3);
+                    color: whitesmoke;
+                }
+                .name-style:hover {
+                    background: rgba(22,23,41,0.6);
+                }
+            }
+
+            .dadaism {
+                background-image: url("../../static/img/styles/dadaism.jpg");
+            }
+            .impressionism {
+                background-image: url("../../static/img/styles/impressionism.jpg");
+            }
+            .classicism {
+                background-image: url("../../static/img/styles/clasicism.jpg");
+            }
+            .cubism {
+                background-image: url("../../static/img/styles/cubism.jpg");
+            }
+            .minimalism {
+                background-image: url("../../static/img/styles/minimalism.jpg");
+            }
+            .modern {
+                background-image: url("../../static/img/styles/modern.jpg");
+            }
+            .pop-art {
+                background-image: url("../../static/img/styles/pop-art.jpg");
+            }
+            .realism {
+                background-image: url("../../static/img/styles/realism.jpg");
+            }
+            .symbolism {
+                background-image: url("../../static/img/styles/symbolism.jpg");
+            }
+            .surrealism {
+                background-image: url("../../static/img/styles/surrealism.jpg");
+            }
+            .expressionism {
+                background-image: url("../../static/img/styles/expressionism.jpg");
+            }
+            .abstractionism {
+                background-image: url("../../static/img/styles/abstractionism.jpg");
+            }
+        }
+        li:hover {
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+        }
+    }
+}
