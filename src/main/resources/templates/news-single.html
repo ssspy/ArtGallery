@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>New</title>
+    <title>Art-gallery</title>
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="../static/css/main.css">
 </head>
@@ -44,16 +45,17 @@
             <div class="search-and-reg_buttons">
                 <div class="search">
                     <input class="home-search" type="search" placeholder="Search...">
+                    <input type="button" class="search-button fa fa-search" aria-hidden="true">
                 </div>
                 <ul class="reg-buttons">
                     <li>
-                        <a href="#">
-                            Sing Up
+                        <a class="red-but sign-up" href="#">
+                            Sign up
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            Login
+                        <a class="red-but" href="#">
+                            Sign in
                         </a>
                     </li>
                 </ul>
@@ -62,49 +64,107 @@
     </div>
 </header>
 <main>
+    <section class="news-single">
+        <div class="wrapper">
+            <div class="single-block">
+                <div class="image-news">
+                    <img src="../static/img/news/big/news1.png" alt="art-gallery-logo">
 
+                    <span class="name-picture">
+                    Looking Out, water-soluble oils
+                </span>
+                </div>
+                <div class="title-text">
+                    <h3>
+                        Winner of the January Anniversary Painting Competition Announced
+                    </h3>
+                    <p>
+                        To celebrate 50 years of Leisure Painter and ten years of
+                        PaintersOnline, we are offering members the chance to win £50
+                        of art materials vouchers from Great Art every month.  Every four
+                        weeks we are inviting you to submit your paintings and drawings
+                        on a particular theme or subject. The corresponding issue of Leisure
+                        Painter includes a feature to help with your entries.
+                    </p>
+                    <p>
+                        In the January magazine we asked you to send in your paintings using
+                        predominently warm, earth reds - as in Tony Paul's understanding
+                        colour series.
+                    </p>
+                    <p>
+                        We had over 50 paintings submitted using various warm reds for a
+                        wide variety of different subjects. You can see all of the entries
+                        by clicking here (please note you need to be looged in to see this page).
+                        Of all these entries the judges selected Looking Out by Frank Adey
+                        (see below) as the winning painting.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <footer>
-    <ul class="footer-container">
-        <li class="logo">
-            <a href="index.html">
-                <img src="" alt="art-gallery-logo">
-            </a>
-        </li>
-        <li class="nav-2">
-            <ul class="footer-menu">
-                <li>
-                    <a href="index.html">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="gallery_styles.html">
-                        Gallery
-                    </a>
-                </li>
-                <li>
-                    <a href="painters.html">
-                        Painters
-                    </a>
-                </li>
-                <li>
-                    <a href="news.html">
-                        News
-                    </a>
-                </li>
-            </ul>
-        </li>
-        <li class="social-icons">
-            <a class="fa fa-instagram" href="#"></a>
-            <a class="fa fa-facebook" href="#"></a>
-            <a class="fa fa-vkontakte" href="#"></a>
-        </li>
-    </ul>
+    <div class="wrapper">
+        <ul class="footer-container">
+            <li class="logo">
+                <a href="index.html">
+                    <img src="../static/img/logo2.png" alt="art-gallery-logo">
+                </a>
+            </li>
+            <li class="nav-2">
+                <ul class="footer-menu">
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="gallery_styles.html">
+                            Gallery
+                        </a>
+                    </li>
+                    <li>
+                        <a href="painters.html">
+                            Painters
+                        </a>
+                    </li>
+                    <li>
+                        <a href="news.html">
+                            News
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="social-icons">
+                <a href="#">
+                    <span class="fa fa-instagram" aria-hidden="true"></span>
+                </a>
+                <a class="vk" href="#">
+                    <span class="fa fa-vk" aria-hidden="true"></span>
+                </a>
+                <a href="#">
+                    <span class="fa fa-twitter" aria-hidden="true"></span>
+                </a>
+                <a href="#">
+                    <span class="fa fa-facebook" aria-hidden="true"></span>
+                </a>
+            </li>
+            <li class="subscribe">
+                <h3>
+                    Subscribe to news
+                </h3>
+                <input class="email" type="email" placeholder="Email">
+                <input class="sub-button" type="button" value="Subscribe">
+            </li>
+        </ul>
+    </div>
 </footer>
 <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
+<script src="../static/source-js/main.js">
+
+</script>
 </body>
 </html>
