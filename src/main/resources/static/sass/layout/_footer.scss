@@ -60,12 +60,11 @@ footer {
         }
         .email {
             padding-left: 10px;
-            border: none;
             border-radius: 3px 0 0 3px;
             height: 35px;
             width: 246px;
             float: left;
-            border-right: none;
+            border-style: none;
             outline: none;
         }
         .sub-button {
@@ -75,8 +74,7 @@ footer {
             display: block;
             width: 77px;
             height: 35px;
-            border: none;
-            border-left: none;
+            border-style: none;
             border-radius: 0 3px 3px 0;
             margin-left: -3px;
             outline: none;

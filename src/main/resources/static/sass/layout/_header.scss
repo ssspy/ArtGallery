@@ -44,12 +44,11 @@ header {
             overflow: hidden;
             .home-search {
                 padding-left: 10px;
-                border: none;
                 border-radius: 3px 0 0 3px;
                 height: 30px;
                 width: 250px;
                 float: left;
-                border-right: none;
+                border-style: none;
                 outline: none;
             }
             .search-button {
@@ -58,8 +57,7 @@ header {
                 display: block;
                 width: 35px;
                 height: 30px;
-                border: none;
-                border-left: none;
+                border-style: none;
                 border-radius: 0 3px 3px 0;
                 margin-left: -3px;
                 background: url("../../static/img/search-icon.png") no-repeat white center left 6px;
