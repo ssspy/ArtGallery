@@ -9,10 +9,9 @@ body{margin: 0; padding: 0; -webkit-box-sizing: border-box;}
     overflow: hidden;
 }
 .home-block {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #c7c9ca;
+    padding-bottom: 45px;
     position: relative;
-    margin-top: 35px;
+    margin-top: 45px;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -81,6 +80,7 @@ body{margin: 0; padding: 0; -webkit-box-sizing: border-box;}
     }
 }
 .news {
+    background-color: ghostwhite;
     padding-bottom: 50px;
     padding-top: 30px;
 }
@@ -97,6 +97,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     li {
+        background-color: white;
         height: 395px;
         margin-bottom: 50px;
         width: 544px;
