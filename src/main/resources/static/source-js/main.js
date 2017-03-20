@@ -45,3 +45,11 @@ function moveSlider(direccion) {
         'margin-left': -(indicador * $('.form_container').width()) + 'px'
     })
 }
+
+
+$(document).ready(function() {
+    $('.plus').on('click', function(e) {
+        $(this).toggleClass('closed');
+    });
+});
+

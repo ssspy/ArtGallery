@@ -66,7 +66,974 @@
 <main>
     <section class="sorting">
         <div class="wrapper">
+            <div class="sorting-block">
+                <span>
+                    Sort by:
+                </span>
+                <label for="sorting">
+                    <select id="sorting">
+                        <option value="1">
+                            By artist: A &#8594; Z
+                        </option>
+                        <option value="2">
+                            By artist: Z &#8594; A
+                        </option>
+                        <option value="3">
+                            By title: A &#8594; Z
+                        </option>
+                        <option value="4">
+                            By title: Z &#8594; A
+                        </option>
+                        <option value="5">
+                            By price: min &#8594; max
+                        </option>
+                        <option value="6">
+                            By price: max &#8594; min
+                        </option>
+                        <option value="7">
+                            By rating
+                        </option>
+                    </select>
+                    <input type="button" class="red-but" value="Tuck up">
+                </label>
+            </div>
+        </div>
+    </section>
+    <section class="pictures">
+        <div class="wrapper">
+            <div class="pictures-block">
+                <ul class="pictures-list">
+                    <li>
+                        <img src="../static/img/pictures/Kurt%20Schwitters%20Picture%20with%20Light%20Center.png" alt="picture">
+                        <div>
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                Picture with Light Center
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                Kurt Schwitters
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                Dadaism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                300 000 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
 
+                                <input id="star8-5" name="rating" type="radio" value="5"/>
+                                <label for="star8-5" class="full"></label>
+
+                                <input id="star8-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="star8-4.5" class="half"></label>
+
+                                <input id="star8-3" name="rating" type="radio" value="3"/>
+                                <label for="star8-3" class="full"></label>
+
+                                <input id="star8-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="star8-3.5" class="half"></label>
+
+                                <input id="star8-2" name="rating" type="radio" value="2"/>
+                                <label for="star8-2" class="full"></label>
+
+                                <input id="star8-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="star8-2.5" class="half"></label>
+
+                                <input id="star8-1" name="rating" type="radio" value="1"/>
+                                <label for="star8-1" class="full"></label>
+
+                                <input id="star8-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="star8-1.5" class="half"></label>
+
+                                <input id="star8-0"  name="rating" type="radio" value="0"/>
+                                <label for="star8-0" class="full"></label>
+
+                                <input id="star8-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="star8-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/img/pictures/Max%20Ernts%20Aquis%20Submersus.png" alt="picture">
+                        <div class="title">
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                Aquis Submersus
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                 Max Ernts
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                Dadaism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                2 000 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
+
+                                <input id="pstar8-5" name="rating" type="radio" value="5"/>
+                                <label for="pstar8-5" class="full"></label>
+
+                                <input id="pstar8-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="pstar8-4.5" class="half"></label>
+
+                                <input id="pstar8-3" name="rating" type="radio" value="3"/>
+                                <label for="pstar8-3" class="full"></label>
+
+                                <input id="pstar8-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="pstar8-3.5" class="half"></label>
+
+                                <input id="pstar8-2" name="rating" type="radio" value="2"/>
+                                <label for="pstar8-2" class="full"></label>
+
+                                <input id="pstar8-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="pstar8-2.5" class="half"></label>
+
+                                <input id="pstar8-1" name="rating" type="radio" value="1"/>
+                                <label for="pstar8-1" class="full"></label>
+
+                                <input id="pstar8-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="pstar8-1.5" class="half"></label>
+
+                                <input id="pstar8-0"  name="rating" type="radio" value="0"/>
+                                <label for="pstar8-0" class="full"></label>
+
+                                <input id="pstar8-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="pstar8-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/img/pictures/Jak-Lui%20David%20Bonaparte%20at%20the%20St.%20Bernard%20Pass.png" alt="picture">
+                        <div class="title">
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                Bonaparte at the St. Bernard Pass
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                 Jak-Lui David
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                 Clasicism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                23 050 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
+
+                                <input id="stars8-5" name="rating" type="radio" value="5"/>
+                                <label for="stars8-5" class="full"></label>
+
+                                <input id="stars8-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="stars8-4.5" class="half"></label>
+
+                                <input id="stars8-3" name="rating" type="radio" value="3"/>
+                                <label for="stars8-3" class="full"></label>
+
+                                <input id="stars8-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="stars8-3.5" class="half"></label>
+
+                                <input id="stars8-2" name="rating" type="radio" value="2"/>
+                                <label for="stars8-2" class="full"></label>
+
+                                <input id="stars8-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="stars8-2.5" class="half"></label>
+
+                                <input id="stars8-1" name="rating" type="radio" value="1"/>
+                                <label for="stars8-1" class="full"></label>
+
+                                <input id="stars8-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="stars8-1.5" class="half"></label>
+
+                                <input id="stars8-0"  name="rating" type="radio" value="0"/>
+                                <label for="stars8-0" class="full"></label>
+
+                                <input id="stars8-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="stars8-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/img/pictures/Jak-Lui%20David%20The%20Coronation%20of%20Napoleon.png" alt="picture">
+                        <div class="title">
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                The Coronation of Napoleon
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                 Jak-Lui David
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                 Clasicism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                55 050 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
+
+                                <input id="starr8-5" name="rating" type="radio" value="5"/>
+                                <label for="starr8-5" class="full"></label>
+
+                                <input id="starr8-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="starr8-4.5" class="half"></label>
+
+                                <input id="starr8-3" name="rating" type="radio" value="3"/>
+                                <label for="starr8-3" class="full"></label>
+
+                                <input id="starr8-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="starr8-3.5" class="half"></label>
+
+                                <input id="starr8-2" name="rating" type="radio" value="2"/>
+                                <label for="starr8-2" class="full"></label>
+
+                                <input id="starr8-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="starr8-2.5" class="half"></label>
+
+                                <input id="starr8-1" name="rating" type="radio" value="1"/>
+                                <label for="starr8-1" class="full"></label>
+
+                                <input id="starr8-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="starr8-1.5" class="half"></label>
+
+                                <input id="starr8-0"  name="rating" type="radio" value="0"/>
+                                <label for="starr8-0" class="full"></label>
+
+                                <input id="starr8-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="starr8-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/img/pictures/Kurt%20Schwitters%20Picture%20with%20Light%20Center.png" alt="picture">
+                        <div>
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                Picture with Light Center
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                Kurt Schwitters
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                Dadaism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                300 000 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
+
+                                <input id="ostar8-5" name="rating" type="radio" value="5"/>
+                                <label for="ostar8-5" class="full"></label>
+
+                                <input id="ostar8-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="ostar8-4.5" class="half"></label>
+
+                                <input id="ostar8-3" name="rating" type="radio" value="3"/>
+                                <label for="ostar8-3" class="full"></label>
+
+                                <input id="ostar8-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="ostar8-3.5" class="half"></label>
+
+                                <input id="ostar8-2" name="rating" type="radio" value="2"/>
+                                <label for="ostar8-2" class="full"></label>
+
+                                <input id="ostar8-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="ostar8-2.5" class="half"></label>
+
+                                <input id="ostar8-1" name="rating" type="radio" value="1"/>
+                                <label for="ostar8-1" class="full"></label>
+
+                                <input id="ostar8-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="ostar8-1.5" class="half"></label>
+
+                                <input id="ostar8-0"  name="rating" type="radio" value="0"/>
+                                <label for="ostar8-0" class="full"></label>
+
+                                <input id="ostar8-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="ostar8-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/img/pictures/Max%20Ernts%20Aquis%20Submersus.png" alt="picture">
+                        <div class="title">
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                Aquis Submersus
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                 Max Ernts
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                Dadaism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                2 000 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
+
+                                <input id="0star8-5" name="rating" type="radio" value="5"/>
+                                <label for="0star8-5" class="full"></label>
+
+                                <input id="0star8-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="0star8-4.5" class="half"></label>
+
+                                <input id="0star8-3" name="rating" type="radio" value="3"/>
+                                <label for="0star8-3" class="full"></label>
+
+                                <input id="0star8-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="0star8-3.5" class="half"></label>
+
+                                <input id="0star8-2" name="rating" type="radio" value="2"/>
+                                <label for="0star8-2" class="full"></label>
+
+                                <input id="0star8-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="0star8-2.5" class="half"></label>
+
+                                <input id="0star8-1" name="rating" type="radio" value="1"/>
+                                <label for="0star8-1" class="full"></label>
+
+                                <input id="0star8-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="0star8-1.5" class="half"></label>
+
+                                <input id="0star8-0"  name="rating" type="radio" value="0"/>
+                                <label for="0star8-0" class="full"></label>
+
+                                <input id="0star8-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="0star8-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/img/pictures/Jak-Lui%20David%20Bonaparte%20at%20the%20St.%20Bernard%20Pass.png" alt="picture">
+                        <div class="title">
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                Bonaparte at the St. Bernard Pass
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                 Jak-Lui David
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                 Clasicism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                23 050 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
+
+                                <input id="star08-5" name="rating" type="radio" value="5"/>
+                                <label for="star08-5" class="full"></label>
+
+                                <input id="star08-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="star08-4.5" class="half"></label>
+
+                                <input id="star08-3" name="rating" type="radio" value="3"/>
+                                <label for="star08-3" class="full"></label>
+
+                                <input id="star08-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="star08-3.5" class="half"></label>
+
+                                <input id="star08-2" name="rating" type="radio" value="2"/>
+                                <label for="star08-2" class="full"></label>
+
+                                <input id="star08-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="star08-2.5" class="half"></label>
+
+                                <input id="star08-1" name="rating" type="radio" value="1"/>
+                                <label for="star08-1" class="full"></label>
+
+                                <input id="star08-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="star08-1.5" class="half"></label>
+
+                                <input id="star08-0"  name="rating" type="radio" value="0"/>
+                                <label for="star08-0" class="full"></label>
+
+                                <input id="star08-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="star08-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/img/pictures/Jak-Lui%20David%20The%20Coronation%20of%20Napoleon.png" alt="picture">
+                        <div class="title">
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                The Coronation of Napoleon
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                 Jak-Lui David
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                 Clasicism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                55 050 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
+
+                                <input id="starq8-5" name="rating" type="radio" value="5"/>
+                                <label for="starq8-5" class="full"></label>
+
+                                <input id="starq8-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="starq8-4.5" class="half"></label>
+
+                                <input id="starq8-3" name="rating" type="radio" value="3"/>
+                                <label for="starq8-3" class="full"></label>
+
+                                <input id="starq8-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="starq8-3.5" class="half"></label>
+
+                                <input id="starq8-2" name="rating" type="radio" value="2"/>
+                                <label for="starq8-2" class="full"></label>
+
+                                <input id="starq8-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="starq8-2.5" class="half"></label>
+
+                                <input id="starq8-1" name="rating" type="radio" value="1"/>
+                                <label for="starq8-1" class="full"></label>
+
+                                <input id="starq8-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="starq8-1.5" class="half"></label>
+
+                                <input id="starq8-0"  name="rating" type="radio" value="0"/>
+                                <label for="starq8-0" class="full"></label>
+
+                                <input id="starq8-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="starq8-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/img/pictures/Kurt%20Schwitters%20Picture%20with%20Light%20Center.png" alt="picture">
+                        <div>
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                Picture with Light Center
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                Kurt Schwitters
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                Dadaism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                300 000 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
+
+                                <input id="starf8-5" name="rating" type="radio" value="5"/>
+                                <label for="starf8-5" class="full"></label>
+
+                                <input id="starf8-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="starf8-4.5" class="half"></label>
+
+                                <input id="starf8-3" name="rating" type="radio" value="3"/>
+                                <label for="starf8-3" class="full"></label>
+
+                                <input id="starf8-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="starf8-3.5" class="half"></label>
+
+                                <input id="starf8-2" name="rating" type="radio" value="2"/>
+                                <label for="starf8-2" class="full"></label>
+
+                                <input id="starf8-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="starf8-2.5" class="half"></label>
+
+                                <input id="starf8-1" name="rating" type="radio" value="1"/>
+                                <label for="starf8-1" class="full"></label>
+
+                                <input id="starf8-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="starf8-1.5" class="half"></label>
+
+                                <input id="starf8-0"  name="rating" type="radio" value="0"/>
+                                <label for="starf8-0" class="full"></label>
+
+                                <input id="starf8-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="starf8-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/img/pictures/Max%20Ernts%20Aquis%20Submersus.png" alt="picture">
+                        <div class="title">
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                Aquis Submersus
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                 Max Ernts
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                Dadaism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                2 000 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
+
+                                <input id="stark8-5" name="rating" type="radio" value="5"/>
+                                <label for="stark8-5" class="full"></label>
+
+                                <input id="stark8-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="stark8-4.5" class="half"></label>
+
+                                <input id="stark8-3" name="rating" type="radio" value="3"/>
+                                <label for="stark8-3" class="full"></label>
+
+                                <input id="stark8-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="stark8-3.5" class="half"></label>
+
+                                <input id="stark8-2" name="rating" type="radio" value="2"/>
+                                <label for="stark8-2" class="full"></label>
+
+                                <input id="stark8-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="stark8-2.5" class="half"></label>
+
+                                <input id="stark8-1" name="rating" type="radio" value="1"/>
+                                <label for="stark8-1" class="full"></label>
+
+                                <input id="stark8-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="stark8-1.5" class="half"></label>
+
+                                <input id="stark8-0"  name="rating" type="radio" value="0"/>
+                                <label for="stark8-0" class="full"></label>
+
+                                <input id="stark8-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="stark8-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/img/pictures/Jak-Lui%20David%20Bonaparte%20at%20the%20St.%20Bernard%20Pass.png" alt="picture">
+                        <div class="title">
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                Bonaparte at the St. Bernard Pass
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                 Jak-Lui David
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                 Clasicism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                23 050 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
+
+                                <input id="starz8-5" name="rating" type="radio" value="5"/>
+                                <label for="starz8-5" class="full"></label>
+
+                                <input id="starz8-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="starz8-4.5" class="half"></label>
+
+                                <input id="starz8-3" name="rating" type="radio" value="3"/>
+                                <label for="starz8-3" class="full"></label>
+
+                                <input id="starz8-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="starz8-3.5" class="half"></label>
+
+                                <input id="starz8-2" name="rating" type="radio" value="2"/>
+                                <label for="starz8-2" class="full"></label>
+
+                                <input id="starz8-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="starz8-2.5" class="half"></label>
+
+                                <input id="starz8-1" name="rating" type="radio" value="1"/>
+                                <label for="starz8-1" class="full"></label>
+
+                                <input id="starz8-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="starz8-1.5" class="half"></label>
+
+                                <input id="starz8-0"  name="rating" type="radio" value="0"/>
+                                <label for="starz8-0" class="full"></label>
+
+                                <input id="starz8-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="starz8-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../static/img/pictures/Jak-Lui%20David%20The%20Coronation%20of%20Napoleon.png" alt="picture">
+                        <div class="title">
+                            <span class="l">
+                                Title:
+                            </span>
+                            <span class="r  title">
+                                The Coronation of Napoleon
+                            </span>
+                        </div>
+                        <div class="autor">
+                            <span class="l">
+                                Painter:
+                            </span>
+                            <span class="r">
+                                 Jak-Lui David
+                            </span>
+                        </div>
+                        <div class="stylle">
+                            <span class="l">
+                                Style:
+                            </span>
+                            <span class="r">
+                                 Clasicism
+                            </span>
+                        </div>
+                        <div class="price">
+                            <span class="l">
+                                Price:
+                            </span>
+                            <span class="r">
+                                55 050 000$
+                            </span>
+                        </div>
+                        <div class="picture-buttons">
+                            <a class="red-but plus closed">
+                            </a>
+                            <div class="rating2">
+
+                                <input id="starx8-5" name="rating" type="radio" value="5"/>
+                                <label for="starx8-5" class="full"></label>
+
+                                <input id="starx8-4.5" name="rating" type="radio" value="4.5"/>
+                                <label for="starx8-4.5" class="half"></label>
+
+                                <input id="starx8-3" name="rating" type="radio" value="3"/>
+                                <label for="starx8-3" class="full"></label>
+
+                                <input id="starx8-3.5" name="rating" type="radio" value="3.5"/>
+                                <label for="starx8-3.5" class="half"></label>
+
+                                <input id="starx8-2" name="rating" type="radio" value="2"/>
+                                <label for="starx8-2" class="full"></label>
+
+                                <input id="starx8-2.5" name="rating" type="radio" value="2.5"/>
+                                <label for="starx8-2.5" class="half"></label>
+
+                                <input id="starx8-1" name="rating" type="radio" value="1"/>
+                                <label for="starx8-1" class="full"></label>
+
+                                <input id="starx8-1.5"  name="rating" type="radio" value="1.5"/>
+                                <label for="starx8-1.5" class="half"></label>
+
+                                <input id="starx8-0"  name="rating" type="radio" value="0"/>
+                                <label for="starx8-0" class="full"></label>
+
+                                <input id="starx8-0.5"  name="rating" type="radio" value="0.5"/>
+                                <label for="starx8-0.5" class="half"></label>
+
+                            </div>
+                            <a href="#" class="but-more red-but">
+                                More
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="pagination">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                < Prev
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                2
+                            </a>
+                        </li>
+                        <li class="current">
+                            <span>
+                                3
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Next >
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 </main>
